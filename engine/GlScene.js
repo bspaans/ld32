@@ -179,12 +179,14 @@ var GlScene = function(gl, shader) {
     self.lightingDirection = undefined;
     self.directionalColor = undefined;
 
+    /*
     audiojs.events.ready(function() {
         var options = {};
         self.soundtrack = audiojs.newInstance(document.getElementById("soundtrack"), options);
         $("#audio").hide();
         
     });
+    */
 
     self.setCameraPosition = function(pos) {
         self.camera.position = pos;
